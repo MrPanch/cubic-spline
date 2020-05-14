@@ -3,4 +3,4 @@ project(JetBrainsFirst)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(JetBrainsFirst Sole.cpp main.cpp)
+add_executable(JetBrainsFirst Sole.cpp main.cpp calc_prep.cpp)
