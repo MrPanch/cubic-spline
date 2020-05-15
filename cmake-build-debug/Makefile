@@ -151,33 +151,6 @@ Sole.cpp.s:
 	$(MAKE) -f CMakeFiles\JetBrainsFirst.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JetBrainsFirst.dir\Sole.cpp.s
 .PHONY : Sole.cpp.s
 
-calc_prep.obj: calc_prep.cpp.obj
-
-.PHONY : calc_prep.obj
-
-# target to build an object file
-calc_prep.cpp.obj:
-	$(MAKE) -f CMakeFiles\JetBrainsFirst.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj
-.PHONY : calc_prep.cpp.obj
-
-calc_prep.i: calc_prep.cpp.i
-
-.PHONY : calc_prep.i
-
-# target to preprocess a source file
-calc_prep.cpp.i:
-	$(MAKE) -f CMakeFiles\JetBrainsFirst.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.i
-.PHONY : calc_prep.cpp.i
-
-calc_prep.s: calc_prep.cpp.s
-
-.PHONY : calc_prep.s
-
-# target to generate assembly for a file
-calc_prep.cpp.s:
-	$(MAKE) -f CMakeFiles\JetBrainsFirst.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.s
-.PHONY : calc_prep.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -217,9 +190,6 @@ help:
 	@echo ... Sole.obj
 	@echo ... Sole.i
 	@echo ... Sole.s
-	@echo ... calc_prep.obj
-	@echo ... calc_prep.i
-	@echo ... calc_prep.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

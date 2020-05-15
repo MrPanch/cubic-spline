@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/panch/Documents/cubic-spline/Sole.cpp" "C:/Users/panch/Documents/cubic-spline/cmake-build-debug/CMakeFiles/JetBrainsFirst.dir/Sole.cpp.obj"
-  "C:/Users/panch/Documents/cubic-spline/calc_prep.cpp" "C:/Users/panch/Documents/cubic-spline/cmake-build-debug/CMakeFiles/JetBrainsFirst.dir/calc_prep.cpp.obj"
   "C:/Users/panch/Documents/cubic-spline/main.cpp" "C:/Users/panch/Documents/cubic-spline/cmake-build-debug/CMakeFiles/JetBrainsFirst.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

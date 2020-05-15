@@ -7,17 +7,18 @@ Sole<width, height>::Sole():
 
 template <size_t width, size_t height>
 std::istream& operator>>(std::istream& stream, Sole<width, height>& system) {
-    std::cout << "give me a system matrix" << std::endl; // читаем слау
+    std::cout << "Enter coefficient matrix" << std::endl; // читаем слау
     for (size_t i = 0; i < system.GetHeight(); ++i) {
         for(size_t j = 0; j < system.GetWidth(); ++j) {
           stream >> system.GetMatrix()[i][j];
         }
     }
 
-    std::cout << "give me a free odds column" << std::endl;
+    std::cout << "Enter right part of the Sole" << std::endl;
     for (int i = 0; i < system.GetHeight(); ++i) {
         stream >> system.GetFreeVariables()[i];
     }
 
   return stream;
 }
+

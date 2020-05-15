@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/JetBrainsFirst.dir/Sole.cpp.obj"
-  "CMakeFiles/JetBrainsFirst.dir/calc_prep.cpp.obj"
   "CMakeFiles/JetBrainsFirst.dir/main.cpp.obj"
   "JetBrainsFirst.exe"
   "JetBrainsFirst.exe.manifest"

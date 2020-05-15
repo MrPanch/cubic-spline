@@ -16,12 +16,6 @@ vector
 iostream
 -
 
-C:/Users/panch/Documents/cubic-spline/calc_prep.cpp
-vector
--
-Sole.hpp
-C:/Users/panch/Documents/cubic-spline/Sole.hpp
-
 C:/Users/panch/Documents/cubic-spline/main.cpp
 iostream
 -
@@ -33,6 +27,4 @@ math.h
 -
 Sole.cpp
 C:/Users/panch/Documents/cubic-spline/Sole.cpp
-calc_prep.cpp
-C:/Users/panch/Documents/cubic-spline/calc_prep.cpp
 

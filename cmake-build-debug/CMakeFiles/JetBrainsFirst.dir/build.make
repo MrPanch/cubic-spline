@@ -96,40 +96,19 @@ CMakeFiles\JetBrainsFirst.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\JetBrainsFirst.dir\main.cpp.s /c C:\Users\panch\Documents\cubic-spline\main.cpp
 <<
 
-CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj: CMakeFiles\JetBrainsFirst.dir\flags.make
-CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj: ..\calc_prep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panch\Documents\cubic-spline\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JetBrainsFirst.dir/calc_prep.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj /FdCMakeFiles\JetBrainsFirst.dir\ /FS -c C:\Users\panch\Documents\cubic-spline\calc_prep.cpp
-<<
-
-CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JetBrainsFirst.dir/calc_prep.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panch\Documents\cubic-spline\calc_prep.cpp
-<<
-
-CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JetBrainsFirst.dir/calc_prep.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.s /c C:\Users\panch\Documents\cubic-spline\calc_prep.cpp
-<<
-
 # Object files for target JetBrainsFirst
 JetBrainsFirst_OBJECTS = \
 "CMakeFiles\JetBrainsFirst.dir\Sole.cpp.obj" \
-"CMakeFiles\JetBrainsFirst.dir\main.cpp.obj" \
-"CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj"
+"CMakeFiles\JetBrainsFirst.dir\main.cpp.obj"
 
 # External object files for target JetBrainsFirst
 JetBrainsFirst_EXTERNAL_OBJECTS =
 
 JetBrainsFirst.exe: CMakeFiles\JetBrainsFirst.dir\Sole.cpp.obj
 JetBrainsFirst.exe: CMakeFiles\JetBrainsFirst.dir\main.cpp.obj
-JetBrainsFirst.exe: CMakeFiles\JetBrainsFirst.dir\calc_prep.cpp.obj
 JetBrainsFirst.exe: CMakeFiles\JetBrainsFirst.dir\build.make
 JetBrainsFirst.exe: CMakeFiles\JetBrainsFirst.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\panch\Documents\cubic-spline\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable JetBrainsFirst.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\panch\Documents\cubic-spline\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable JetBrainsFirst.exe"
 	"E:\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\JetBrainsFirst.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\JetBrainsFirst.dir\objects1.rsp @<<
  /out:JetBrainsFirst.exe /implib:JetBrainsFirst.lib /pdb:C:\Users\panch\Documents\cubic-spline\cmake-build-debug\JetBrainsFirst.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
