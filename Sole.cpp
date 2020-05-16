@@ -43,7 +43,6 @@ std::vector<double> Sole<width, height>::SeqThomas(){
         gamma[i] = GetB(i) + GetA(i -1) * alpha[i - 1];
         alpha[i] = -GetC(i) / gamma[i];
         beta[i] = (free_variables_[i] - GetA(i-1) * beta[i - 1]) / gamma[i];
-
     }
 
     x[GetWidth() - 1] = beta[GetWidth() - 1];
@@ -56,5 +55,6 @@ std::vector<double> Sole<width, height>::SeqThomas(){
     for(int i = 0; i < GetWidth(); i++) {
         std::cout << x[i] << "   ";
     }
+
     return x;
 }
