@@ -13,10 +13,12 @@ class Sole {
         std::vector<std::vector<double>>& GetMatrix() { return matrix_;  };
         std::vector<double>& GetFreeVariables() {return free_variables_; };
 
-        double& GetA(int i)  { return matrix_[i+1][i]; };
-        double& GetB(int i)  { return matrix_[i][i];   };
+//        double& GetA(int i)  { return matrix_[i+1][i]; };
+//        double& GetB(int i)  { return matrix_[i][i];   };
+//        double& GetC(int i)  { return matrix_[i][i+1]; };
+        double& GetA(int i)  { return matrix_[i][i]; };
+        double& GetB(int i)  { return matrix_[i+1][i];   };
         double& GetC(int i)  { return matrix_[i][i+1]; };
-
 
         friend std::istream &operator>>(std::istream& stream, Sole& sole);
         std::vector<double> SeqThomas();
