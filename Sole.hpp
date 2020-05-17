@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include <iostream>
+#include <mpi.h>
 
 template <size_t width, size_t height>
 class Sole {
